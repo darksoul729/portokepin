@@ -20,7 +20,7 @@ export async function GET() {
     if (!res.ok) {
       const errorData = await res.json();
       console.error("GitHub API Error:", errorData);
-      throw new Error(`GitHub API error: ${errorData.message}`);
+      return NextResponse.json({ error: errorData.message }, { status: res.status });
     }
 
     const data = await res.json();
@@ -28,3 +28,6 @@ export async function GET() {
     return NextResponse.json(data);
   } catch (error) {
     console.error("Error fetching GitHub projects:", error);
+    return NextResponse.json({ error: (error as Error).message }, { status: 500 });
+  }
+}
