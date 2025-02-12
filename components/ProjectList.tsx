@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
-import { fetchGitHubProjects } from "@/lib/github";
+import { fetchGitHubProjects } from "@/lib/github"; // ✅ Import dari /lib/github.ts
 
 type Project = {
   id: number;
@@ -33,8 +33,6 @@ const ProjectList: React.FC = () => {
 
   return (
     <div className="px-6 py-10">
-
-      {/* Grid 2x2 di Desktop */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center">
         {projects.map((project) => (
           <div key={project.id} className="flex justify-center">
