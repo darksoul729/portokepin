@@ -1,3 +1,4 @@
+
 export const fetchGitHubProjects = async () => {
   try {
     const res = await fetch("/api/github/projects");

@@ -9,6 +9,7 @@ type Project = {
   description: string;
   html_url: string;
   private: boolean;
+  images: string[]; 
 };
 
 const ProjectList: React.FC = () => {
@@ -33,7 +34,7 @@ const ProjectList: React.FC = () => {
 
   return (
     <div className="px-6 py-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center"> {/* Gap lebih besar antara kolom */}
         {projects.map((project) => (
           <div key={project.id} className="flex justify-center">
             <ProjectCard {...project} />
