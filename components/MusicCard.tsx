@@ -22,7 +22,7 @@ const MusicCard = () => {
               className="rounded-lg shadow-md object-cover"
             />
             <div>
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-teal-300">Kenanglah Aku</h3>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-teal-300">Kenanglah Aku Sepanjang waktu</h3>
               <p className="text-gray-600 dark:text-gray-300">Naff</p>
               <a
                 href="https://open.spotify.com/track/0zJIPpVcHKWqmf2FaKXbQQ?si=b55ebf9d349444d7"
