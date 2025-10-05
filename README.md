@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Tentu! Berikut adalah versi README yang sudah diterjemahkan dan disesuaikan ke dalam **Bahasa Indonesia** dengan gaya yang tetap profesional dan menarik:
 
-## Getting Started
+---
 
-First, run the development server:
+# 🚀 Proyek Next.js Awal
+
+Ini adalah proyek [Next.js](https://nextjs.org) yang dibuat menggunakan [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). Proyek ini sudah dikonfigurasi dengan praktik terbaik untuk memulai pengembangan dengan cepat dan efisien.
+
+---
+
+## 📦 Cara Memulai
+
+Untuk menjalankan server pengembangan, gunakan salah satu perintah berikut:
 
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
+# atau
 pnpm dev
-# or
+# atau
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Setelah itu, buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Kamu bisa mulai mengedit halaman utama dengan memodifikasi file berikut:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/page.tsx
+```
 
-## Learn More
+Perubahan akan langsung terlihat berkat fitur *hot reload* dari Next.js.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Fitur Utama
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* ⚡ Dibangun dengan [Next.js versi terbaru](https://nextjs.org)
+* 🔤 Optimisasi font menggunakan [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) dan font modern [Geist](https://vercel.com/font)
+* 🧱 Routing berbasis file melalui folder `app/`
+* 🚀 Server pengembangan cepat dengan *live reload*
+* 🌐 Siap untuk dideploy di [Vercel](https://vercel.com)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Pelajari Lebih Lanjut
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ingin memahami lebih dalam tentang Next.js? Berikut beberapa sumber resmi yang sangat bermanfaat:
+
+* 📘 [Dokumentasi Next.js](https://nextjs.org/docs) – Penjelasan fitur dan referensi API
+* 🧠 [Belajar Next.js](https://nextjs.org/learn) – Tutorial interaktif untuk pemula
+* 💻 [Repositori GitHub Next.js](https://github.com/vercel/next.js) – Jangan lupa bintangin dan kontribusi ya!
+
+---
+
+## ☁️ Deploy dengan Vercel
+
+Cara paling mudah untuk melakukan *deploy* aplikasi Next.js adalah melalui [Vercel](https://vercel.com), platform resmi dari tim pembuat Next.js.
+
+👉 Deploy sekarang: [https://vercel.com/new](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+
+Atau ikuti panduan lengkapnya di [dokumentasi deployment Next.js](https://nextjs.org/docs/app/building-your-application/deploying)
+
+---
+
+Selamat ngoding! 💻✨
+
+---
+
+Kalau kamu mau menambahkan bagian lain seperti "Struktur Folder", "Teknologi yang Digunakan", atau "Fitur Tambahan", tinggal bilang saja — saya bisa bantu sesuaikan lagi.
+
